@@ -1,12 +1,74 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
 int main() {
+    int população, número de pontos turísticos;
+    char estado[20], cidade[20], carta[5];
+    float área, PIB;
+    
+    //primeira cidade, Porto Alegre, escolhida por ser meu local de origem.
+
+    printf("A \n"); 
+    scanf("%c", &estado);
+    
+    printf("Porto Alegre \n");
+    scanf("%s", &cidade)
+
+    printf("A01 \n");
+    scanf("%s", &carta);
+
+    printf("11.229.915 hab. \n");
+    scanf("%e", &população);
+
+    printf("32 \n");
+    scanf("%d", &número de pontos turísticos);
+
+    printf("281.730,233 km² \n");
+    scanf("%e", &área);
+
+    printf("593,634 bilhões de reais \n");
+    scanf("%e", &PIB);
+
+    //segunda cidade, São Paulo, escolhida por ser a maior do Brasil.
+    
+    printf("B \n");
+    scanf("%c", &estado);
+
+    printf("São Paulo \n");
+    scanf("%s", &cidade);
+
+    printf("B01 \n");
+    scanf("%s", &carta);
+
+    printf("46.649.132 hab. \n");
+    scanf("%e", &população);
+
+    printf("36 \n");
+    scanf("%d", &número de pontos turísticos);
+
+    printf("248.219,48 km² \n");
+    scanf("%e", &área);
+
+    printf("3,130,333 trilhões de reais \n");
+    scanf("%e", &PIB);
+
+    printf("Digite sua carta: \n");
+    scanf("%s" &carta);
+
+    
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
